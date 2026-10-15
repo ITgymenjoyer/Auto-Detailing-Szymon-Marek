@@ -75,3 +75,8 @@ INSERT INTO services (category_id, name, description, duration, price) VALUES
                                                                            (1, 'Pranie i Detailing Wnętrza', 'Dokładne odkurzanie, pranie ekstrakcyjne i czyszczenie plastików', 180, 450.00), -- 3 godziny
                                                                            (2, 'Korekta Lakieru (1-etapowa)', 'Usunięcie do 60% zarysowań, odświeżenie połysku lakieru', 360, 900.00),     -- 6 godzin
                                                                            (2, 'Powłoka Ceramiczna 9H', 'Aplikacja powłoki ceramicznej na lakier (ochrona na 3 lata)', 480, 1500.00);    -- 8 godzin
+
+INSERT INTO users (id, name, surname, email, password, phone, role, active) VALUES 
+(1, 'Jan', 'Kowalski', 'admin@detailing.pl', '$2y$10$1lYjv3pw.AYem7vJSzsbnOBP8fbSnm9gInDcy5cu.03UkhcND0XQW', '123456789', 'admin', 1),
+(2, 'Piotr', 'Nowak', 'pracownik@detailing.pl', '$2y$10$1lYjv3pw.AYem7vJSzsbnOBP8fbSnm9gInDcy5cu.03UkhcND0XQW', '987654321', 'employee', 1),
+(3, 'Anna', 'Wiśniewska', 'klient@detailing.pl', '$2y$10$1lYjv3pw.AYem7vJSzsbnOBP8fbSnm9gInDcy5cu.03UkhcND0XQW', '555666777', 'client', 1);
