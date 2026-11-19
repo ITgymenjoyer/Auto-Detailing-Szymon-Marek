@@ -1,0 +1,130 @@
+.panel-wrap {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+.panel-header-card {
+    background-color: #1e1e1e;
+    border-left: 5px solid #00adb5;
+    border-top: 1px solid #2d2d2d;
+    border-right: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+    border-radius: 8px;
+    padding: 22px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+.panel-header-card h1 {
+    margin: 0 0 8px 0;
+    text-align: left;
+    font-size: 24px;
+}
+.panel-header-card p {
+    margin: 0 0 14px 0;
+    color: #b3b3b3;
+}
+.panel-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+}
+.section-title {
+    color: #ffffff;
+    font-size: 19px;
+    margin: 26px 0 14px 0;
+    border-bottom: 1px solid #2d2d2d;
+    padding-bottom: 8px;
+}
+.res-card {
+    background-color: #1e1e1e;
+    border: 1px solid #2d2d2d;
+    border-left: 4px solid #00adb5;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+}
+.res-card.history-card {
+    border-left-color: #555555;
+    opacity: 0.92;
+}
+.res-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.res-service {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+.status-pending {
+    background-color: #332910;
+    color: #ffd180;
+}
+.status-confirmed {
+    background-color: #102e2c;
+    color: #64ffda;
+}
+.status-completed {
+    background-color: #17281c;
+    color: #a5d6a7;
+}
+.status-cancelled {
+    background-color: #2e1518;
+    color: #ff8a8a;
+}
+.res-meta {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin: 4px 0;
+}
+.res-meta strong {
+    color: #e0e0e0;
+}
+.cancel-form {
+    margin-top: 12px;
+}
+.cancel-btn {
+    width: auto;
+    padding: 8px 14px;
+    font-size: 13px;
+    background-color: #8e2424;
+}
+.cancel-btn:hover {
+    background-color: #b71c1c;
+}
+.empty-box {
+    background-color: #1e1e1e;
+    border: 1px solid #2d2d2d;
+    border-radius: 8px;
+    padding: 16px 20px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.alert-err {
+    background-color: #2c1618;
+    color: #ff8a8a;
+    border-left: 4px solid #e53935;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.alert-ok {
+    background-color: #132824;
+    color: #64ffda;
+    border-left: 4px solid #00adb5;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
