@@ -109,6 +109,6 @@ INSERT INTO employee_availability (employee_id, day_of_week, start_time, end_tim
 (4, 'Saturday', '09:00:00', '14:00:00');
 
 INSERT INTO reservations (user_id, employee_id, service_id, reservation_date, start_time, end_time, status, comment) VALUES 
-(5, 2, 1, '2026-11-15', '10:00:00', '13:00:00', 'pending', 'Proszę o dokładne wyczyszczenie wnętrza.'),
-(6, 3, 4, '2026-11-16', '10:00:00', '18:00:00', 'confirmed', 'Auto zostawione rano.'),
+(5, 2, 1, '2026-11-15', '10:00:00', '13:00:00', 'completed', 'Proszę o dokładne wyczyszczenie wnętrza.'),
+(6, 3, 4, '2026-11-16', '10:00:00', '18:00:00', 'completed', 'Auto zostawione rano.'),
 (5, 4, 7, '2026-11-10', '09:00:00', '10:30:00', 'completed', 'Reflektory zrobione idealnie.');
