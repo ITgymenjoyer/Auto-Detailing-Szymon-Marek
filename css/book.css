@@ -1,0 +1,113 @@
+.booking-container {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.booking-card {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid #00adb5;
+    border-top: 1px solid #2d2d2d;
+    border-right: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.booking-card h1 {
+    margin-top: 0;
+    text-align: left;
+    font-size: 24px;
+}
+.booking-subtitle {
+    color: #b3b3b3;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.booking-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2d2d2d;
+    padding: 15px 30px;
+}
+.step-block {
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #2d2d2d;
+}
+.step-block:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.step-label {
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+.step-num {
+    color: #00adb5;
+    margin-right: 4px;
+}
+select,
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+}
+select:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #00adb5;
+    outline: none;
+}
+.service-meta {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background-color: #161616;
+    border-radius: 4px;
+    color: #b3b3b3;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-meta strong {
+    color: #00adb5;
+}
+.msg-error {
+    background-color: #2c1618;
+    color: #ff8a8a;
+    border-left: 4px solid #e53935;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.msg-success {
+    background-color: #132824;
+    color: #64ffda;
+    border-left: 4px solid #00adb5;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+.msg-empty {
+    background-color: #262216;
+    color: #ffd180;
+    border-left: 4px solid #ffa000;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.submit-booking {
+    margin-top: 8px;
+}
